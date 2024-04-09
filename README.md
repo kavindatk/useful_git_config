@@ -26,4 +26,22 @@ The quickest and easiest way is to globally disable SSL verification on Git to c
 
     git config --local http.sslVerify false
 
+
+
+**Git Windows Authontication**
+
+To authenticate on Windows, use this command to install GitHub CLI:
+    
+    winget install --id GitHub.cli
+    
+
+For more information on other OS, visit https://github.com/cli/cli#installation
+
+After installation, you may have to restart your code editor if you are using its terminal. Then,
+
+    gh auth login
+
+
+
+
 Happy Coding....!
